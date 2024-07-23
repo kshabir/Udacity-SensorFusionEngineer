@@ -1,0 +1,1320 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7a99d/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7a99d.dir/build.make CMakeFiles/cmTC_7a99d.dir/build
+Building C object CMakeFiles/cmTC_7a99d.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_7a99d.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_7a99d.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_7a99d.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_7a99d.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_7a99d/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb5b3/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cb5b3.dir/build.make CMakeFiles/cmTC_cb5b3.dir/build
+Building C object CMakeFiles/cmTC_cb5b3.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_cb5b3.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_cb5b3.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_cb5b3.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_cb5b3.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_cb5b3/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9c2af/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9c2af.dir/build.make CMakeFiles/cmTC_9c2af.dir/build
+Building C object CMakeFiles/cmTC_9c2af.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_9c2af.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_9c2af.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_9c2af.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_9c2af.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_9c2af/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cfdf8/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cfdf8.dir/build.make CMakeFiles/cmTC_cfdf8.dir/build
+Building C object CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cfdf8.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_cfdf8/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5be1/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a5be1.dir/build.make CMakeFiles/cmTC_a5be1.dir/build
+Building CXX object CMakeFiles/cmTC_a5be1.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_a5be1.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a5be1.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a5be1.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_a5be1.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_a5be1/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71cb5/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_71cb5.dir/build.make CMakeFiles/cmTC_71cb5.dir/build
+Building CXX object CMakeFiles/cmTC_71cb5.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_71cb5.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_71cb5.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_71cb5.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_71cb5.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_71cb5/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58d06/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_58d06.dir/build.make CMakeFiles/cmTC_58d06.dir/build
+Building CXX object CMakeFiles/cmTC_58d06.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_58d06.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_58d06.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_58d06.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_58d06.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_58d06/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_039be/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_039be.dir/build.make CMakeFiles/cmTC_039be.dir/build
+Building CXX object CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_039be.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_039be/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3af41/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3af41.dir/build.make CMakeFiles/cmTC_3af41.dir/build
+Building C object CMakeFiles/cmTC_3af41.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_3af41.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_3af41.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_3af41.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_3af41.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_3af41/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3622/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e3622.dir/build.make CMakeFiles/cmTC_e3622.dir/build
+Building C object CMakeFiles/cmTC_e3622.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_e3622.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_e3622.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_e3622.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_e3622.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_e3622/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e15bb/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e15bb.dir/build.make CMakeFiles/cmTC_e15bb.dir/build
+Building C object CMakeFiles/cmTC_e15bb.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_e15bb.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_e15bb.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_e15bb.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_e15bb.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_e15bb/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_77ac0/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_77ac0.dir/build.make CMakeFiles/cmTC_77ac0.dir/build
+Building C object CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_77ac0.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_77ac0/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5d6c9/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5d6c9.dir/build.make CMakeFiles/cmTC_5d6c9.dir/build
+Building CXX object CMakeFiles/cmTC_5d6c9.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_5d6c9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5d6c9.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5d6c9.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_5d6c9.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_5d6c9/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55f73/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_55f73.dir/build.make CMakeFiles/cmTC_55f73.dir/build
+Building CXX object CMakeFiles/cmTC_55f73.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_55f73.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_55f73.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_55f73.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_55f73.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_55f73/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_622a9/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_622a9.dir/build.make CMakeFiles/cmTC_622a9.dir/build
+Building CXX object CMakeFiles/cmTC_622a9.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_622a9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_622a9.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_622a9.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_622a9.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_622a9/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c8bd3/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c8bd3.dir/build.make CMakeFiles/cmTC_c8bd3.dir/build
+Building CXX object CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c8bd3.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_c8bd3/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82dca/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_82dca.dir/build.make CMakeFiles/cmTC_82dca.dir/build
+Building C object CMakeFiles/cmTC_82dca.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_82dca.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_82dca.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_82dca.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_82dca.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_82dca/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea1b5/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ea1b5.dir/build.make CMakeFiles/cmTC_ea1b5.dir/build
+Building C object CMakeFiles/cmTC_ea1b5.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_ea1b5.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_ea1b5.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_ea1b5.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_ea1b5.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_ea1b5/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0754/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f0754.dir/build.make CMakeFiles/cmTC_f0754.dir/build
+Building C object CMakeFiles/cmTC_f0754.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_f0754.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_f0754.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_f0754.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_f0754.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_f0754/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4883e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4883e.dir/build.make CMakeFiles/cmTC_4883e.dir/build
+Building C object CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4883e.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_4883e/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8743/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b8743.dir/build.make CMakeFiles/cmTC_b8743.dir/build
+Building CXX object CMakeFiles/cmTC_b8743.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_b8743.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_b8743.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_b8743.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_b8743.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_b8743/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6a2f/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f6a2f.dir/build.make CMakeFiles/cmTC_f6a2f.dir/build
+Building CXX object CMakeFiles/cmTC_f6a2f.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_f6a2f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f6a2f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f6a2f.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_f6a2f.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_f6a2f/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_db98a/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_db98a.dir/build.make CMakeFiles/cmTC_db98a.dir/build
+Building CXX object CMakeFiles/cmTC_db98a.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_db98a.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_db98a.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_db98a.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_db98a.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_db98a/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1784b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1784b.dir/build.make CMakeFiles/cmTC_1784b.dir/build
+Building CXX object CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1784b.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_1784b/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b77b6/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b77b6.dir/build.make CMakeFiles/cmTC_b77b6.dir/build
+Building C object CMakeFiles/cmTC_b77b6.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_b77b6.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b77b6.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b77b6.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_b77b6.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_b77b6/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36344/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_36344.dir/build.make CMakeFiles/cmTC_36344.dir/build
+Building C object CMakeFiles/cmTC_36344.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_36344.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_36344.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_36344.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_36344.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_36344/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6d6a2/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6d6a2.dir/build.make CMakeFiles/cmTC_6d6a2.dir/build
+Building C object CMakeFiles/cmTC_6d6a2.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_6d6a2.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_6d6a2.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_6d6a2.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_6d6a2.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_6d6a2/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41c4d/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_41c4d.dir/build.make CMakeFiles/cmTC_41c4d.dir/build
+Building C object CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_41c4d.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_41c4d/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0d59b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0d59b.dir/build.make CMakeFiles/cmTC_0d59b.dir/build
+Building CXX object CMakeFiles/cmTC_0d59b.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_0d59b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_0d59b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_0d59b.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_0d59b.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_0d59b/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_93228/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_93228.dir/build.make CMakeFiles/cmTC_93228.dir/build
+Building CXX object CMakeFiles/cmTC_93228.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_93228.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_93228.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_93228.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_93228.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_93228/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_315c3/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_315c3.dir/build.make CMakeFiles/cmTC_315c3.dir/build
+Building CXX object CMakeFiles/cmTC_315c3.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_315c3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_315c3.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_315c3.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_315c3.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_315c3/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b9563/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b9563.dir/build.make CMakeFiles/cmTC_b9563.dir/build
+Building CXX object CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b9563.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_b9563/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25ae4/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_25ae4.dir/build.make CMakeFiles/cmTC_25ae4.dir/build
+Building C object CMakeFiles/cmTC_25ae4.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_25ae4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_25ae4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_25ae4.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_25ae4.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_25ae4/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8f66/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b8f66.dir/build.make CMakeFiles/cmTC_b8f66.dir/build
+Building C object CMakeFiles/cmTC_b8f66.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_b8f66.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b8f66.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b8f66.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_b8f66.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_b8f66/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_155f4/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_155f4.dir/build.make CMakeFiles/cmTC_155f4.dir/build
+Building C object CMakeFiles/cmTC_155f4.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_155f4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_155f4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_155f4.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_155f4.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_155f4/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a97c4/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a97c4.dir/build.make CMakeFiles/cmTC_a97c4.dir/build
+Building C object CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a97c4.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_a97c4/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f00c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3f00c.dir/build.make CMakeFiles/cmTC_3f00c.dir/build
+Building CXX object CMakeFiles/cmTC_3f00c.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_3f00c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3f00c.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3f00c.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_3f00c.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_3f00c/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f5d9/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2f5d9.dir/build.make CMakeFiles/cmTC_2f5d9.dir/build
+Building CXX object CMakeFiles/cmTC_2f5d9.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_2f5d9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_2f5d9.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_2f5d9.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_2f5d9.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_2f5d9/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_993fe/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_993fe.dir/build.make CMakeFiles/cmTC_993fe.dir/build
+Building CXX object CMakeFiles/cmTC_993fe.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_993fe.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_993fe.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_993fe.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_993fe.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_993fe/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fc502/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fc502.dir/build.make CMakeFiles/cmTC_fc502.dir/build
+Building CXX object CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fc502.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_fc502/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94934/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_94934.dir/build.make CMakeFiles/cmTC_94934.dir/build
+Building C object CMakeFiles/cmTC_94934.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_94934.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_94934.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_94934.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_94934.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_94934/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4035b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4035b.dir/build.make CMakeFiles/cmTC_4035b.dir/build
+Building C object CMakeFiles/cmTC_4035b.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_4035b.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_4035b.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_4035b.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_4035b.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_4035b/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37e40/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_37e40.dir/build.make CMakeFiles/cmTC_37e40.dir/build
+Building C object CMakeFiles/cmTC_37e40.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_37e40.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_37e40.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_37e40.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_37e40.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_37e40/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fc531/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fc531.dir/build.make CMakeFiles/cmTC_fc531.dir/build
+Building C object CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fc531.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_fc531/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_97a26/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_97a26.dir/build.make CMakeFiles/cmTC_97a26.dir/build
+Building CXX object CMakeFiles/cmTC_97a26.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_97a26.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_97a26.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_97a26.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_97a26.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_97a26/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_220d0/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_220d0.dir/build.make CMakeFiles/cmTC_220d0.dir/build
+Building CXX object CMakeFiles/cmTC_220d0.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_220d0.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_220d0.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_220d0.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_220d0.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_220d0/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_907c9/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_907c9.dir/build.make CMakeFiles/cmTC_907c9.dir/build
+Building CXX object CMakeFiles/cmTC_907c9.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_907c9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_907c9.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_907c9.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_907c9.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_907c9/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7485e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7485e.dir/build.make CMakeFiles/cmTC_7485e.dir/build
+Building CXX object CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7485e.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_7485e/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6a9c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e6a9c.dir/build.make CMakeFiles/cmTC_e6a9c.dir/build
+Building C object CMakeFiles/cmTC_e6a9c.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_e6a9c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_e6a9c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_e6a9c.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_e6a9c.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_e6a9c/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8857/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b8857.dir/build.make CMakeFiles/cmTC_b8857.dir/build
+Building C object CMakeFiles/cmTC_b8857.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_b8857.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b8857.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b8857.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_b8857.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_b8857/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_804da/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_804da.dir/build.make CMakeFiles/cmTC_804da.dir/build
+Building C object CMakeFiles/cmTC_804da.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_804da.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_804da.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_804da.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_804da.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_804da/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2249b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2249b.dir/build.make CMakeFiles/cmTC_2249b.dir/build
+Building C object CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2249b.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_2249b/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6fa2c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6fa2c.dir/build.make CMakeFiles/cmTC_6fa2c.dir/build
+Building CXX object CMakeFiles/cmTC_6fa2c.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_6fa2c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_6fa2c.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_6fa2c.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_6fa2c.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_6fa2c/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4de7/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d4de7.dir/build.make CMakeFiles/cmTC_d4de7.dir/build
+Building CXX object CMakeFiles/cmTC_d4de7.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_d4de7.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d4de7.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d4de7.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_d4de7.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_d4de7/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_91ed1/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_91ed1.dir/build.make CMakeFiles/cmTC_91ed1.dir/build
+Building CXX object CMakeFiles/cmTC_91ed1.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_91ed1.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_91ed1.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_91ed1.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_91ed1.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_91ed1/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23d5b/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_23d5b.dir/build.make CMakeFiles/cmTC_23d5b.dir/build
+Building CXX object CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_23d5b.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_23d5b/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a541f/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a541f.dir/build.make CMakeFiles/cmTC_a541f.dir/build
+Building C object CMakeFiles/cmTC_a541f.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_a541f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a541f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_a541f.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_a541f.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_a541f/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5ad9c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5ad9c.dir/build.make CMakeFiles/cmTC_5ad9c.dir/build
+Building C object CMakeFiles/cmTC_5ad9c.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_5ad9c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_5ad9c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_5ad9c.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_5ad9c.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_5ad9c/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48a1e/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_48a1e.dir/build.make CMakeFiles/cmTC_48a1e.dir/build
+Building C object CMakeFiles/cmTC_48a1e.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_48a1e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_48a1e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_48a1e.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_48a1e.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_48a1e/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb017/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fb017.dir/build.make CMakeFiles/cmTC_fb017.dir/build
+Building C object CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o -x c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fb017.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_fb017/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6974a/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6974a.dir/build.make CMakeFiles/cmTC_6974a.dir/build
+Building CXX object CMakeFiles/cmTC_6974a.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_6974a.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_6974a.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_6974a.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libomp' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_6974a.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_6974a/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8050/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8050.dir/build.make CMakeFiles/cmTC_e8050.dir/build
+Building CXX object CMakeFiles/cmTC_e8050.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_e8050.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_e8050.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_e8050.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported argument 'libiomp5' to option '-fopenmp='
+make[1]: *** [CMakeFiles/cmTC_e8050.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_e8050/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5cec4/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5cec4.dir/build.make CMakeFiles/cmTC_5cec4.dir/build
+Building CXX object CMakeFiles/cmTC_5cec4.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_5cec4.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5cec4.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5cec4.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_5cec4.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_5cec4/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: '/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_efb26/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_efb26.dir/build.make CMakeFiles/cmTC_efb26.dir/build
+Building CXX object CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o -c /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o -x c++ /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_efb26.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_efb26/fast] Error 2
+
+
+
