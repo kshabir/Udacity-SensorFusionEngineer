@@ -45,10 +45,38 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     bool renderScene = true;
     std::vector<Car> cars = initHighway(renderScene, viewer);
     
-    // TODO:: Create lidar sensor 
+    // TODO:: Create lidar sensor
+    Lidar* lidar = new Lidar(cars, 0);
+    pcl::PointCloud<pcl::PointXYZ>::Ptr inputCloud = lidar->scan();
 
     // TODO:: Create point processor
-  
+    ProcessPointClouds<pcl::PointXYZ>* pointProcessor;
+
+    // Perform Segmentation (Ransac based Plane fitting)
+    std::pair<pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr> segmentClouds = pointProcessor->SegmentPlane(inputCloud, 100, 0.2);
+    // Separate Obstacles and Road/plane clouds
+    pcl::PointCloud<pcl::PointXYZ>::Ptr obstacleCloud = segmentClouds.first;
+    pcl::PointCloud<pcl::PointXYZ>::Ptr roadCloud = segmentClouds.second;
+
+    // Rending both clouds
+    renderPointCloud(viewer, roadCloud, "RoadCloud", Color(1, 1, 1));
+    renderPointCloud(viewer, obstacleCloud, "ObstacleCloud", Color(1, 0, 0));
+    
+    // Perform Clustering: use obstacle cloud
+    std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> clusters = pointProcessor->Clustering(obstacleCloud, 1.0, 3, 30);
+    std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> l1clusters = pointProcessor->manhattanClustering(obstacleCloud, 1.0, 3, 30);
+    // Extract each cluster and render it after placing a BB
+    int clusterId = 0;
+
+    for(pcl::PointCloud<pcl::PointXYZ>::Ptr cluster : clusters)
+    {
+        std::cout << "cluster size ";
+        std::cout << cluster->points.size() << std::endl;
+        renderPointCloud(viewer, cluster, "obstCloud"+std::to_string(clusterId), Color(1, 1, 0));
+        Box box = pointProcessor->BoundingBox(cluster);
+        renderBox(viewer, box, clusterId);
+        clusterId++;
+    }
 }
 
 
