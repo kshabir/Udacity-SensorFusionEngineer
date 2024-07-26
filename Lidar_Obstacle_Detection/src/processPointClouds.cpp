@@ -162,49 +162,44 @@ void ProcessPointClouds<PointT>::clusterHelper(const pcl::PointCloud<pcl::PointX
         }
     }
 
-
 }
 
 
 template<typename PointT>
 std::vector<typename pcl::PointCloud<PointT>::Ptr> ProcessPointClouds<PointT>::Clustering(typename pcl::PointCloud<PointT>::Ptr cloud, float clusterTolerance, int minSize, int maxSize)
 {
-
     // Time clustering process
     auto startTime = std::chrono::steady_clock::now();
-    // Fill kdtree: 
-    KdTree* tree = new KdTree;
-    for (int i = 0; i < cloud->points.size(); i++)
-    {
-        PointT point = cloud->points[i];
-        tree->insert({point.x, point.y, point.y}, i);
-    }
 
     std::vector<typename pcl::PointCloud<PointT>::Ptr> clusters;
-    std::vector<bool> processed(cloud->points.size(), false);
 
-    for (int index = 0; index < cloud->points.size(); index++)
+    // Create a KdTree object for the search method of the extraction
+    typename pcl::search::KdTree<PointT>::Ptr tree(new pcl::search::KdTree<PointT>);
+    tree->setInputCloud(cloud);
+
+    std::vector<pcl::PointIndices> clusterIndices;
+    typename pcl::EuclideanClusterExtraction<PointT> ec;
+    ec.setClusterTolerance(clusterTolerance);
+    ec.setMinClusterSize(minSize);
+    ec.setMaxClusterSize(maxSize);
+    ec.setSearchMethod(tree);
+    ec.setInputCloud(cloud);
+    ec.extract(clusterIndices);
+
+    for (auto it = clusterIndices.begin(); it != clusterIndices.end(); ++it)
     {
         typename pcl::PointCloud<PointT>::Ptr cluster(new pcl::PointCloud<PointT>);
-        if(processed[index])
+        // Create a cluster with the extracted points belonging to the same object
+        for (auto pointIt = it->indices.begin(); pointIt != it->indices.end(); ++pointIt)
         {
-            continue;
+            cluster->push_back(cloud->points[*pointIt]);
         }
-
-        clusterHelper(cloud, cluster, processed, index, tree, clusterTolerance);
-
-        // cluster within the limits
-        if(cluster->size() >= minSize && cluster->size() <= maxSize)
-        {
-            cluster->width = cluster->points.size();
-            cluster->height = 1;
-            cluster->is_dense = true;
-            clusters.push_back(cluster);
-        }
-
+        cluster->width = cluster->size();
+        cluster->height = 1;
+        cluster->is_dense = true;
+        // Add the cluster to the return cluster vector
+        clusters.push_back(cluster);
     }
-
-    // TODO:: Fill in the function to perform euclidean clustering to group detected obstacles
 
     auto endTime = std::chrono::steady_clock::now();
     auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);

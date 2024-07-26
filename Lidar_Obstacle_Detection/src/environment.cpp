@@ -11,7 +11,7 @@
 std::vector<Car> initHighway(bool renderScene, pcl::visualization::PCLVisualizer::Ptr& viewer)
 {
 
-    Car egoCar( Vect3(0,0,0), Vect3(4,2,2), Color(0,1,0), "egoCar");
+    Car egoCar( Vect3(0,0,0), Vect3(4,2,2), Color(0,1,0), "egoCar"); // Green: Ego Car, Blue: Rest of Cars
     Car car1( Vect3(15,0,0), Vect3(4,2,2), Color(0,0,1), "car1");
     Car car2( Vect3(8,-4,0), Vect3(4,2,2), Color(0,0,1), "car2");	
     Car car3( Vect3(-12,4,0), Vect3(4,2,2), Color(0,0,1), "car3");
@@ -42,13 +42,12 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     // ----------------------------------------------------
     
     // RENDER OPTIONS
-    bool renderScene = true;
+    bool renderScene = false;
     std::vector<Car> cars = initHighway(renderScene, viewer);
     
     // TODO:: Create lidar sensor
     Lidar* lidar = new Lidar(cars, 0);
     pcl::PointCloud<pcl::PointXYZ>::Ptr inputCloud = lidar->scan();
-
     // TODO:: Create point processor
     ProcessPointClouds<pcl::PointXYZ>* pointProcessor;
 
@@ -58,26 +57,30 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     pcl::PointCloud<pcl::PointXYZ>::Ptr obstacleCloud = segmentClouds.first;
     pcl::PointCloud<pcl::PointXYZ>::Ptr roadCloud = segmentClouds.second;
 
+
     // Rending both clouds
-    renderPointCloud(viewer, roadCloud, "RoadCloud", Color(1, 1, 1));
+    renderPointCloud(viewer, roadCloud, "RoadCloud", Color(0, 1, 0));
     renderPointCloud(viewer, obstacleCloud, "ObstacleCloud", Color(1, 0, 0));
     
     // Perform Clustering: use obstacle cloud
     std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> clusters = pointProcessor->Clustering(obstacleCloud, 1.0, 3, 30);
     std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> l1clusters = pointProcessor->manhattanClustering(obstacleCloud, 1.0, 3, 30);
     // Extract each cluster and render it after placing a BB
+
     int clusterId = 0;
 
     for(pcl::PointCloud<pcl::PointXYZ>::Ptr cluster : clusters)
     {
         std::cout << "cluster size ";
         std::cout << cluster->points.size() << std::endl;
-        renderPointCloud(viewer, cluster, "obstCloud"+std::to_string(clusterId), Color(1, 1, 0));
+        renderPointCloud(viewer, cluster, "obstCloud" +std::to_string(clusterId), Color(1, 0, 0));
         Box box = pointProcessor->BoundingBox(cluster);
         renderBox(viewer, box, clusterId);
         clusterId++;
     }
 }
+
+// For streaming PCD we need cityBlock
 
 
 //setAngle: SWITCH CAMERA ANGLE {XY, TopDown, Side, FPS}
