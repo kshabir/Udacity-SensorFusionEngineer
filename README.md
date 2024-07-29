@@ -1,6 +1,6 @@
 # Udacity-SensorFusionEngineer
 
-# How to become an expert Sensor Fusion 
+# How to become Sensor Fusion Expert
 It requires 6 most essential skills to acquire [1]:
 
     1. Experience with Multi-Sensor Fusion
