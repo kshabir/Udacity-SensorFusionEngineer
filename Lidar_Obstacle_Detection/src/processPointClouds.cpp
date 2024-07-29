@@ -26,13 +26,14 @@ typename pcl::PointCloud<PointT>::Ptr ProcessPointClouds<PointT>::FilterCloud(ty
     // Time segmentation process
     auto startTime = std::chrono::steady_clock::now();
 
-    // TODO:: Fill in the function to do voxel grid point reduction and region based filtering
+    typename pcl::PointCloud<PointT>::Ptr cloudFiltered{new pcl::PointCloud<PointT>};
 
     auto endTime = std::chrono::steady_clock::now();
     auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
+    std::cout << "downsampled original " << cloud->points.size() << " points to " << cloudFiltered->points.size() << std::endl;
     std::cout << "filtering took " << elapsedTime.count() << " milliseconds" << std::endl;
 
-    return cloud;
+    return cloudFiltered;
 
 }
 
@@ -60,7 +61,7 @@ std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT
 template<typename PointT>
 pcl::PointIndices::Ptr ProcessPointClouds<PointT>::RansacPlane(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, int maxIterations, float distanceTol)
 {
-    pcl::PointIndices::Ptr inliersResult (new pcl::PointIndices());
+    pcl::PointIndices::Ptr inliersResult {new pcl::PointIndices()};
 	srand(time(NULL));
 	
 	// TODO: Fill in this function
@@ -125,6 +126,40 @@ pcl::PointIndices::Ptr ProcessPointClouds<PointT>::RansacPlane(pcl::PointCloud<p
 
 template<typename PointT>
 std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> ProcessPointClouds<PointT>::SegmentPlane(typename pcl::PointCloud<PointT>::Ptr cloud, int maxIterations, float distanceThreshold)
+{
+    // Time segmentation process
+    auto startTime = std::chrono::steady_clock::now();
+	pcl::PointIndices::Ptr inliers (new pcl::PointIndices());
+
+    /* pcl Internal Segmentation method */
+    pcl::ModelCoefficients::Ptr coefficients{new pcl::ModelCoefficients()};
+    pcl::SACSegmentation<PointT> seg;
+
+    // Set the segmentation parameters
+    seg.setOptimizeCoefficients(true);
+    seg.setModelType(pcl::SACMODEL_PLANE);
+    seg.setMethodType(pcl::SAC_RANSAC);
+    seg.setMaxIterations(maxIterations);
+    seg.setDistanceThreshold(distanceThreshold);
+
+    // Segment the largest planar component from the remaining cloud
+    seg.setInputCloud(cloud);
+    seg.segment(*inliers, *coefficients);
+    if (inliers->indices.size() == 0)
+    {
+      std::cerr << "Could not estimate a planar model for the given dataset." << std::endl;
+    }
+
+    auto endTime = std::chrono::steady_clock::now();
+    auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
+    std::cout << "plane segmentation took " << elapsedTime.count() << " milliseconds" << std::endl;
+
+    std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> segResult = SeparateClouds(inliers,cloud);
+    return segResult;
+}
+
+template<typename PointT>
+std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> ProcessPointClouds<PointT>::SegmentPlaneRansac(typename pcl::PointCloud<PointT>::Ptr cloud, int maxIterations, float distanceThreshold)
 {
     // Time segmentation process
     auto startTime = std::chrono::steady_clock::now();

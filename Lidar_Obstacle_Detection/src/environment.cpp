@@ -9,6 +9,9 @@
 // using templates for processPointClouds so also include .cpp to help linker
 #include "processPointClouds.cpp"
 
+#define PCL_METHOD
+//#define CUSTOMIZED_METHOD
+
 std::vector<Car> initHighway(bool renderScene, pcl::visualization::PCLVisualizer::Ptr& viewer)
 {
 
@@ -86,11 +89,14 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
 {
     
     //Perform filtering (pre-processing)
-    //pcl::PointCloud<pcl::PointXYZI>::Ptr cloudFiltered = pointProcessorI->FilterCloud();
+    pcl::PointCloud<pcl::PointXYZI>::Ptr cloudFiltered = pointProcessorI->FilterCloud(inputCloud, 0.18, Eigen::Vector4f(-10, -5, -2, 1), Eigen::Vector4f(30, 7, 4, 1));
 
     // Perform Segmentation (Ransac based Plane fitting)
-    std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlane(inputCloud, 100, 0.2); // replace inputCloud with cloudFiltered
-    
+    # if defined PCL_METHOD
+        std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlane(cloudFiltered, 100, 0.2); // replace inputCloud with cloudFiltered
+    #elif defined CUSTOMIZED_METHOD
+        std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlaneRansac(cloudFiltered, 100, 0.2); // replace inputCloud with cloudFiltered
+    #endif
     // Separate Obstacles and Road/plane clouds
     pcl::PointCloud<pcl::PointXYZI>::Ptr obstacleCloud = segmentClouds.first;
     pcl::PointCloud<pcl::PointXYZI>::Ptr roadCloud = segmentClouds.second;
@@ -100,17 +106,19 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
     renderPointCloud(viewer, obstacleCloud, "ObstacleCloud", Color(1, 0, 0));
 
     // Perform Clustering: use obstacle cloud
-    std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> clusters = pointProcessorI->Clustering(obstacleCloud, 1.0, 3, 30);
+    std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> clusters = pointProcessorI->Clustering(obstacleCloud, 0.5, 10, 600);
 
     int clusterId = 0;
+    std::vector<Color> colors = {Color(1,0,0), Color(0,1,1), Color(1,1,0)};
     for(pcl::PointCloud<pcl::PointXYZI>::Ptr cluster : clusters)
     {
         std::cout << "cluster size ";
         std::cout << cluster->points.size() << std::endl;
-        renderPointCloud(viewer, cluster, "obstCloud" +std::to_string(clusterId), Color(1, 0, 0));
+        renderPointCloud(viewer, cluster, "obstcleCloud" + std::to_string(clusterId), colors[clusterId % colors.size()]);
+
         Box box = pointProcessorI->BoundingBox(cluster);
         renderBox(viewer, box, clusterId);
-        clusterId++;
+        ++clusterId;
     }
 
 }
@@ -149,7 +157,7 @@ int main (int argc, char** argv)
     //simpleHighway(viewer);
 
     ProcessPointClouds<pcl::PointXYZI>* pointProcessorI = new ProcessPointClouds<pcl::PointXYZI>();
-    std::vector<std::filesystem::path> stream = pointProcessorI->streamPcd("../src/sensors/data/pcd/data_1/0000000000.pcd");
+    std::vector<std::filesystem::path> stream = pointProcessorI->streamPcd("../src/sensors/data/pcd/data_1");
     std::cout << "stream size: " << stream.size() << std::endl;
     auto streamIt = stream.begin();
     pcl::PointCloud<pcl::PointXYZI>::Ptr inputCloudI;
