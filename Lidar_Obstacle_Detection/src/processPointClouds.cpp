@@ -27,6 +27,21 @@ typename pcl::PointCloud<PointT>::Ptr ProcessPointClouds<PointT>::FilterCloud(ty
     auto startTime = std::chrono::steady_clock::now();
 
     typename pcl::PointCloud<PointT>::Ptr cloudFiltered{new pcl::PointCloud<PointT>};
+    // Downsampling using voxel grid
+    pcl::VoxelGrid<PointT> vg;
+    vg.setInputCloud(cloud);
+    vg.setLeafSize(filterRes, filterRes, filterRes);
+    vg.filter(*cloudFiltered);
+
+
+    // ROI based filtering
+    pcl::CropBox<PointT> cropBoxFilter(true);
+    cropBoxFilter.setMin(minPoint);
+    cropBoxFilter.setMax(maxPoint);
+    cropBoxFilter.setInputCloud(cloudFiltered);
+    cropBoxFilter.filter(*cloudFiltered);
+
+    // Optional: Rooftop point removal
 
     auto endTime = std::chrono::steady_clock::now();
     auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
@@ -34,7 +49,6 @@ typename pcl::PointCloud<PointT>::Ptr ProcessPointClouds<PointT>::FilterCloud(ty
     std::cout << "filtering took " << elapsedTime.count() << " milliseconds" << std::endl;
 
     return cloudFiltered;
-
 }
 
 

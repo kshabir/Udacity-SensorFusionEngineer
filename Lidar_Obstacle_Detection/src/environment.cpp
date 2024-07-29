@@ -1,7 +1,3 @@
-/* \author Aaron Brown */
-// Create simple 3d highway enviroment using PCL
-// for exploring self-driving car sensors
-
 #include <thread>
 #include "sensors/lidar.h"
 #include "render/render.h"
@@ -84,20 +80,20 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     }
 }
 
-// For streaming PCD we need cityBlock
+// For streaming PCD files
 void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud)
 {
     
     //Perform filtering (pre-processing)
     pcl::PointCloud<pcl::PointXYZI>::Ptr cloudFiltered = pointProcessorI->FilterCloud(inputCloud, 0.18, Eigen::Vector4f(-10, -5, -2, 1), Eigen::Vector4f(30, 7, 4, 1));
 
-    // Perform Segmentation (Ransac based Plane fitting)
+    // Perform Segmentation (Ransac based Plane fitting): Default pcl method or customized method
     # if defined PCL_METHOD
-        std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlane(cloudFiltered, 100, 0.2); // replace inputCloud with cloudFiltered
+        std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlane(cloudFiltered, 100, 0.2);
     #elif defined CUSTOMIZED_METHOD
-        std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlaneRansac(cloudFiltered, 100, 0.2); // replace inputCloud with cloudFiltered
+        std::pair<pcl::PointCloud<pcl::PointXYZI>::Ptr, pcl::PointCloud<pcl::PointXYZI>::Ptr> segmentClouds = pointProcessorI->SegmentPlaneRansac(cloudFiltered, 100, 0.2);
     #endif
-    // Separate Obstacles and Road/plane clouds
+    
     pcl::PointCloud<pcl::PointXYZI>::Ptr obstacleCloud = segmentClouds.first;
     pcl::PointCloud<pcl::PointXYZI>::Ptr roadCloud = segmentClouds.second;
 
@@ -105,7 +101,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
     renderPointCloud(viewer, roadCloud, "RoadCloud", Color(0, 1, 0));
     renderPointCloud(viewer, obstacleCloud, "ObstacleCloud", Color(1, 0, 0));
 
-    // Perform Clustering: use obstacle cloud
+    // Perform Clustering using obstacle cloud
     std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> clusters = pointProcessorI->Clustering(obstacleCloud, 0.5, 10, 600);
 
     int clusterId = 0;
@@ -152,7 +148,7 @@ int main (int argc, char** argv)
     std::cout << "starting enviroment" << std::endl;
 
     pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
-    CameraAngle setAngle = XY;
+    CameraAngle setAngle = FPS;
     initCamera(setAngle, viewer);
     //simpleHighway(viewer);
 
@@ -173,12 +169,12 @@ int main (int argc, char** argv)
         inputCloudI = pointProcessorI->loadPcd((*streamIt).string());
         cityBlock(viewer, pointProcessorI, inputCloudI);
         streamIt++;
-        // repeat teh stream if end of stream
+        // Loop the stream
         if(streamIt == stream.end())
         streamIt = stream.begin();
 
         // some delay to see the result
-        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
         viewer->spinOnce();
     } 
