@@ -1,5 +1,25 @@
 # Udacity-SensorFusionEngineer
 
+# How to become an expert Sensor Fusion 
+It requires 6 most essential skills to acquire [1]:
+
+    1. Experience with Multi-Sensor Fusion
+    2. Hands on experience with radar, lidar, camera, or ultrasonics and the sensor data
+    3. Hands on experience with Kalman Filters (Extended/Unscented) or any other type of Bayesian Filtering
+    4. Solid Understanding of 3D Computer Vision — Projections, Intrinsics & Extrinsics
+    5. Strong Python / C++ skills
+    6. Deep Learning & Deployment on embedded platforms
+
+# It's a 6 step process:
+    Step 1: Learn about the Sensors  
+    Step 2: Understand the 9 Types of Sensor Fusion Algorithms 
+    Step 3: Master Projections & 3D  
+    Step 4: Dive in Kalman Filters  
+    Step 5: Build your own sensor fusion project  
+    Step 6: Explore Deep Sensor Fusion for Automotive perception systems  
+
+# Step 1: Learn about the Sensors
+
 Question: Things to understand about each sensor:
 
 Purpose: What are the main strengths, weaknesses, and reasons to be? When to use it? and when not to?  
@@ -64,3 +84,18 @@ Velocity estimation
 Adaptive cruise control
 Collision warning systems
 Occupancy grid mapping
+
+# Step 2: Understand the 9 Types of Sensor Fusion Algorithms
+    There are 3 ways to classify sensor fusion algorithms, so let me briefly show them:
+    Fusion By Abstraction : Low-Level Sensor Fusion, Mid-Level Sensor Fusion, High-Level Sensor Fusion
+    Fusion By Centralization: Centralized Fusion, Decentralized Fusion, Distributed Fusion
+    Fusion By Competition: Competitive, Complementary, Coordinative
+    See: https://www.thinkautonomous.ai/blog/9-types-of-sensor-fusion-algorithms/
+
+# Step 3: Master Projections & 3D
+
+# Step 4: Dive in Kalman Filters
+
+# Step 5: Build your own sensor fusion project
+
+# Step 6: Explore Deep Sensor Fusion for Automotive perception systems
