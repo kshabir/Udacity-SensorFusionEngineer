@@ -90,7 +90,7 @@ Occupancy grid mapping
     Fusion By Abstraction : Low-Level Sensor Fusion, Mid-Level Sensor Fusion, High-Level Sensor Fusion
     Fusion By Centralization: Centralized Fusion, Decentralized Fusion, Distributed Fusion
     Fusion By Competition: Competitive, Complementary, Coordinative
-    See: https://www.thinkautonomous.ai/blog/9-types-of-sensor-fusion-algorithms/
+See: https://www.thinkautonomous.ai/blog/9-types-of-sensor-fusion-algorithms/
 
 # Step 3: Master Projections & 3D
 
