@@ -100,4 +100,29 @@ See: https://www.thinkautonomous.ai/blog/9-types-of-sensor-fusion-algorithms/
 
 # Step 6: Explore Deep Sensor Fusion for Automotive perception systems
 
+# SOME KEY POINTS
+
+## Distance metrics impact on Segmentation
+
+| Distance Metric     | Impact on Segmentation                                       |
+|---------------------|--------------------------------------------------------------|
+| Euclidean distance  | - Provides uniform spherical clustering for 3D point clouds.   |
+| Manhattan (L1)      | - Faster computation; better for grid-like environments.      |
+| Mahalanobis         | - Accounts for data covariance; improves elongated clusters.  |
+| Cosine similarity   | - Emphasizes direction over absolute position of points.     |
+| Custom metrics      | - Tailored to specific sensor characteristics or properties. |
+
+## Radius v.r.s Range queries
+
+| Query Type       | Characteristics                                              |
+|------------------|--------------------------------------------------------------|
+| Radius Queries   | - Searches within a spherical region around the query point. |
+|                  | - Returns points falling within the specified radius.       |
+|                  | - Useful for finding local neighborhoods or nearby objects.  |
+| Range Queries    | - Searches within a rectangular or cubic region.             |
+|                  | - Defines bounds for each dimension (x, y, z).               |
+|                  | - Useful for selecting points within a specific volume.      |
+
+
+
 [1] https://www.thinkautonomous.ai/blog/learn-sensor-fusion/
