@@ -99,3 +99,5 @@ See: https://www.thinkautonomous.ai/blog/9-types-of-sensor-fusion-algorithms/
 # Step 5: Build your own sensor fusion project
 
 # Step 6: Explore Deep Sensor Fusion for Automotive perception systems
+
+[1] https://www.thinkautonomous.ai/blog/learn-sensor-fusion/
