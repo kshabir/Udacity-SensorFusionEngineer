@@ -5,8 +5,8 @@
 // using templates for processPointClouds so also include .cpp to help linker
 #include "processPointClouds.cpp"
 
-#define PCL_METHOD
-//#define CUSTOMIZED_METHOD
+//#define PCL_METHOD
+#define CUSTOMIZED_METHOD
 
 std::vector<Car> initHighway(bool renderScene, pcl::visualization::PCLVisualizer::Ptr& viewer)
 {
