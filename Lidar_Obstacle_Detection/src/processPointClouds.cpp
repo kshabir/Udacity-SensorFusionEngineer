@@ -42,13 +42,37 @@ typename pcl::PointCloud<PointT>::Ptr ProcessPointClouds<PointT>::FilterCloud(ty
     cropBoxFilter.filter(*cloudFiltered);
 
     // Optional: Rooftop point removal
+    std::vector<int> indices;
+    typename pcl::PointCloud<PointT>::Ptr optionalFiltering{new pcl::PointCloud<PointT>};
+
+    // Step 1: Get Indices of region of interest (ROI)
+    pcl::CropBox<PointT> cropBox(true);
+    cropBox.setMin(Eigen::Vector4f(-1.5, -1.7, -1, 1));
+    cropBox.setMax(Eigen::Vector4f(2.6, 1.7, -0.4, 1));
+    cropBox.setInputCloud(cloudFiltered);
+    cropBox.filter(indices);
+
+    // Type conversion
+    pcl::PointIndices::Ptr inliers(new pcl::PointIndices);
+
+    for(auto point : indices)
+    {
+        inliers->indices.push_back(point);
+    }
+
+    // Step 2: Remove the points outside the ROI
+    pcl::ExtractIndices<PointT> extract;
+    extract.setIndices(inliers);
+    extract.setNegative(true);
+    extract.setInputCloud(cloudFiltered);
+    extract.filter(*optionalFiltering);
 
     auto endTime = std::chrono::steady_clock::now();
     auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
     std::cout << "downsampled original " << cloud->points.size() << " points to " << cloudFiltered->points.size() << std::endl;
     std::cout << "filtering took " << elapsedTime.count() << " milliseconds" << std::endl;
 
-    return cloudFiltered;
+    return optionalFiltering;
 }
 
 

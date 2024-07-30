@@ -1,1 +1,0 @@
-set(__QT_DEPLOY_TARGET_quizRansac_FILE /Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/quizRansac)

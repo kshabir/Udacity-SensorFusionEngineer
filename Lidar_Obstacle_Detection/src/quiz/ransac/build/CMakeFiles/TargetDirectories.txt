@@ -1,3 +1,0 @@
-/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/quizRansac.dir
-/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/edit_cache.dir
-/Users/kshabir/Documents/Learning/Courses/Udacity-SensorFusionEngineer/Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/rebuild_cache.dir
