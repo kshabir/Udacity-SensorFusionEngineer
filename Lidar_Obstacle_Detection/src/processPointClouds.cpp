@@ -287,6 +287,36 @@ std::vector<typename pcl::PointCloud<PointT>::Ptr> ProcessPointClouds<PointT>::m
     return clusters;
 }
 
+template<typename PointT>
+ExtendedBox ProcessPointClouds<PointT>::computeProperties(typename pcl::PointCloud<PointT>::Ptr cloud)
+{
+    ExtendedBox box;
+    
+    Eigen::Vector4f centroid;
+    pcl::compute3DCentroid(*cloud, centroid);
+    box.center = centroid.head<3>();
+
+    PointT min_pt, max_pt;
+    pcl::getMinMax3D(*cloud, min_pt, max_pt);
+    
+    box.x_min = min_pt.x;
+    box.y_min = min_pt.y;
+    box.z_min = min_pt.z;
+    box.x_max = max_pt.x;
+    box.y_max = max_pt.y;
+    box.z_max = max_pt.z;
+
+    box.dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
+    box.yaw = std::atan2(box.dimensions.y(), box.dimensions.x());
+
+    static int next_id = 0;
+    box.id = next_id++;
+    box.confidence = 1.0f;
+    box.name = "Object";
+
+    return box;
+}
+
 
 template<typename PointT>
 Box ProcessPointClouds<PointT>::BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster)

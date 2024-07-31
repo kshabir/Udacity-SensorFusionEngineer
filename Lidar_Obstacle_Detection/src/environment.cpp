@@ -80,18 +80,9 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     }
 }
 
-void showBB(BoundingBox<pcl::PointXYZI> cBox)
-{
-    std::cout << "Bounding Box Properties:" << std::endl;
-    std::cout << "Center: (" << cBox.center.x() << ", " << cBox.center.y() << ", " << cBox.center.z() << ")" << std::endl;
-    std::cout << "Dimensions: (" << cBox.dimensions.x() << ", " << cBox.dimensions.y() << ", " << cBox.dimensions.z() << ")" << std::endl;
-    std::cout << "Yaw: " << cBox.yaw << std::endl;
-    std::cout << "ID: " << cBox.id << std::endl;
-    std::cout << "Confidence: " << cBox.confidence << std::endl;
-}
 
 // For streaming PCD files
-void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud, std::vector<BoundingBox<pcl::PointXYZI>>& detections)
+void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud, std::vector<ExtendedBox>& detections)
 {
     
     //Perform filtering (pre-processing)
@@ -128,8 +119,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         //BoundingBox<pcl::PointXYZI> cBox = BoundingBox<pcl::PointXYZI>::computeBoundingBox(cluster);
 
         /* Console based properties checker since renderBox() doesn't work for PointXYZI */
-        //showBB(cBox);
-        BoundingBox<pcl::PointXYZI> cBox = pointProcessorI->computeBoundingBox(cluster);
+        ExtendedBox cBox = pointProcessorI->computeProperties(cluster);
 
         renderBox(viewer, cBox, clusterId);
         detections.push_back(cBox);
@@ -176,7 +166,7 @@ int main (int argc, char** argv)
     std::cout << "stream size: " << stream.size() << std::endl;
     auto streamIt = stream.begin();
     pcl::PointCloud<pcl::PointXYZI>::Ptr inputCloudI;
-    std::vector<BoundingBox<pcl::PointXYZI>> detections;
+    std::vector<ExtendedBox> detections;
 
 
     while (!viewer->wasStopped ())
