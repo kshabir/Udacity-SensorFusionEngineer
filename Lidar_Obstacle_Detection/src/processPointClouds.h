@@ -20,6 +20,7 @@
 #include <unordered_set>
 #include "render/box.h"
 #include "quiz/cluster/kdtree.h"
+#include "boundingBox.h"
 
 template<typename PointT>
 class ProcessPointClouds {
@@ -43,6 +44,7 @@ public:
     std::vector<typename pcl::PointCloud<PointT>::Ptr> manhattanClustering(typename pcl::PointCloud<PointT>::Ptr cloud, float clusterTolerance, int minSize, int maxSize);
     
     Box BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster);
+    BoundingBox customizedBoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster);
 
     // void clusterHelper(const pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, 
     //                pcl::PointCloud<pcl::PointXYZ>::Ptr cluster,
