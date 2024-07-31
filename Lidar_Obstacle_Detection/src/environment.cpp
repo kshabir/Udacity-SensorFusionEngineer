@@ -2,7 +2,6 @@
 #include "sensors/lidar.h"
 #include "render/render.h"
 #include "processPointClouds.h"
-#include "boundingBox.h"
 // using templates for processPointClouds so also include .cpp to help linker
 #include "processPointClouds.cpp"
 
@@ -92,7 +91,7 @@ void showBB(BoundingBox<pcl::PointXYZI> cBox)
 }
 
 // For streaming PCD files
-void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud)
+void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud, std::vector<BoundingBox<pcl::PointXYZI>>& detections)
 {
     
     //Perform filtering (pre-processing)
@@ -126,13 +125,14 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         Box box = pointProcessorI->BoundingBox(cluster);
 
         // A little ugly solution
-        BoundingBox<pcl::PointXYZI> cBox = BoundingBox<pcl::PointXYZI>::computeBoundingBox(cluster);
+        //BoundingBox<pcl::PointXYZI> cBox = BoundingBox<pcl::PointXYZI>::computeBoundingBox(cluster);
 
         /* Console based properties checker since renderBox() doesn't work for PointXYZI */
         //showBB(cBox);
-        //BoundingBox<pcl::PointXYZI> cBox = pointProcessorI->BoundingBox(cluster);
+        BoundingBox<pcl::PointXYZI> cBox = pointProcessorI->computeBoundingBox(cluster);
 
         renderBox(viewer, cBox, clusterId);
+        detections.push_back(cBox);
         ++clusterId;
     }
 
@@ -176,6 +176,7 @@ int main (int argc, char** argv)
     std::cout << "stream size: " << stream.size() << std::endl;
     auto streamIt = stream.begin();
     pcl::PointCloud<pcl::PointXYZI>::Ptr inputCloudI;
+    std::vector<BoundingBox<pcl::PointXYZI>> detections;
 
 
     while (!viewer->wasStopped ())
@@ -186,15 +187,19 @@ int main (int argc, char** argv)
 
         // load pcd file
         inputCloudI = pointProcessorI->loadPcd((*streamIt).string());
-        cityBlock(viewer, pointProcessorI, inputCloudI);
+        cityBlock(viewer, pointProcessorI, inputCloudI, detections);
         streamIt++;
         // Loop the stream
         if(streamIt == stream.end())
-        streamIt = stream.begin();
+        {
+            std::cout << "detections size: " << detections.size() << std::endl;
+            // streamIt = stream.begin();
+            break;
+        }
 
         // some delay to see the result
-        std::this_thread::sleep_for(std::chrono::milliseconds(500));
+        std::this_thread::sleep_for(std::chrono::milliseconds(300));
 
         viewer->spinOnce();
-    } 
+    }
 }

@@ -202,6 +202,14 @@ std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT
 }
 
 // template<typename PointT>
+// BoundingBox<PointT> ProcessPointClouds<PointT>::mBoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster);
+// {
+//     BoundingBox<PointT> box;
+//     return box;
+//     //return computeBoundingBox(cluster);
+// }
+
+// template<typename PointT>
 // void ProcessPointClouds<PointT>::clusterHelper(const pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, 
 //                    pcl::PointCloud<pcl::PointXYZ>::Ptr cluster,
 //                    std::vector<bool>& processed, 
