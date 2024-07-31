@@ -109,3 +109,36 @@ void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, BoxQ box, int id,
     viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_COLOR, color.r, color.g, color.b, cubeFill);
     viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_OPACITY, opacity*0.3, cubeFill);
 }
+
+void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, const BoundingBox<pcl::PointXYZI>& box, int id, Color color, float opacity)
+{
+    if(opacity > 1.0)
+        opacity = 1.0;
+    if(opacity < 0.0)
+        opacity = 0.0;
+    
+    std::string cube = "box"+std::to_string(id);
+    viewer->addCube(box.center.x()-box.dimensions.x()/2, box.center.x()+box.dimensions.x()/2, 
+                    box.center.y()-box.dimensions.y()/2, box.center.y()+box.dimensions.y()/2, 
+                    box.center.z()-box.dimensions.z()/2, box.center.z()+box.dimensions.z()/2, 
+                    color.r, color.g, color.b, cube);
+    viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_REPRESENTATION, pcl::visualization::PCL_VISUALIZER_REPRESENTATION_WIREFRAME, cube);
+    viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_OPACITY, opacity, cube);
+    
+    std::string cubeFill = "boxFill"+std::to_string(id);
+    viewer->addCube(box.center.x()-box.dimensions.x()/2, box.center.x()+box.dimensions.x()/2, 
+                    box.center.y()-box.dimensions.y()/2, box.center.y()+box.dimensions.y()/2, 
+                    box.center.z()-box.dimensions.z()/2, box.center.z()+box.dimensions.z()/2, 
+                    color.r, color.g, color.b, cubeFill);
+    viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_REPRESENTATION, pcl::visualization::PCL_VISUALIZER_REPRESENTATION_SURFACE, cubeFill);
+    viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_OPACITY, opacity*0.3, cubeFill);
+    
+    std::string label = "label"+std::to_string(box.next_id);
+	//viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_FONT_SIZE, 3, label);
+	//viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_COLOR, color.r, color.g, color.b, label);
+
+	viewer->addText3D(box.name + "\nConf: " + std::to_string(box.confidence)+ "\nYaw: " + std::to_string(box.yaw), 
+                  pcl::PointXYZ(box.center.x(), box.center.y(), box.center.z()+box.dimensions.z()/2), 
+                  0.11, 0.0, 1.0, 0.0, label);
+}
+

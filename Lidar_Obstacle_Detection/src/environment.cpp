@@ -129,10 +129,10 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         BoundingBox<pcl::PointXYZI> cBox = BoundingBox<pcl::PointXYZI>::computeBoundingBox(cluster);
 
         /* Console based properties checker since renderBox() doesn't work for PointXYZI */
-        showBB(cBox);
+        //showBB(cBox);
         //BoundingBox<pcl::PointXYZI> cBox = pointProcessorI->BoundingBox(cluster);
 
-        renderBox(viewer, box, clusterId);
+        renderBox(viewer, cBox, clusterId);
         ++clusterId;
     }
 

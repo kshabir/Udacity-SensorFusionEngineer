@@ -6,6 +6,7 @@
 #define RENDER_H
 #include <pcl/visualization/pcl_visualizer.h>
 #include "box.h"
+#include "../boundingBox.h"
 #include <iostream>
 #include <vector>
 #include <string>
@@ -89,5 +90,7 @@ void renderPointCloud(pcl::visualization::PCLVisualizer::Ptr& viewer, const pcl:
 void renderPointCloud(pcl::visualization::PCLVisualizer::Ptr& viewer, const pcl::PointCloud<pcl::PointXYZI>::Ptr& cloud, std::string name, Color color = Color(-1,-1,-1));
 void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, Box box, int id, Color color = Color(1,0,0), float opacity=1);
 void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, BoxQ box, int id, Color color = Color(1,0,0), float opacity=1);
+void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, const BoundingBox<pcl::PointXYZI>& box, int id, Color color = Color(1,0,0), float opacity=1.0);
+//void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, const BoundingBox<pcl::PointXYZ>& box, int id, Color color = Color(1,0,0), float opacity=1.0);
 
 #endif
