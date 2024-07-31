@@ -2,6 +2,7 @@
 #include "sensors/lidar.h"
 #include "render/render.h"
 #include "processPointClouds.h"
+#include "boundingBox.h"
 // using templates for processPointClouds so also include .cpp to help linker
 #include "processPointClouds.cpp"
 
@@ -113,7 +114,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         renderPointCloud(viewer, cluster, "obstcleCloud" + std::to_string(clusterId), colors[clusterId % colors.size()]);
 
         Box box = pointProcessorI->BoundingBox(cluster);
-        BoundingBox customizedBox = pointProcessorI->customizedBoundingBox(cluster);
+        //BoundingBox customizedBox = pointProcessorI->customizedBoundingBox(cluster);
         renderBox(viewer, box, clusterId);
         ++clusterId;
     }
