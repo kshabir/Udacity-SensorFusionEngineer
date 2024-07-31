@@ -81,6 +81,16 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
     }
 }
 
+void showBB(BoundingBox<pcl::PointXYZI> cBox)
+{
+    std::cout << "Bounding Box Properties:" << std::endl;
+    std::cout << "Center: (" << cBox.center.x() << ", " << cBox.center.y() << ", " << cBox.center.z() << ")" << std::endl;
+    std::cout << "Dimensions: (" << cBox.dimensions.x() << ", " << cBox.dimensions.y() << ", " << cBox.dimensions.z() << ")" << std::endl;
+    std::cout << "Yaw: " << cBox.yaw << std::endl;
+    std::cout << "ID: " << cBox.id << std::endl;
+    std::cout << "Confidence: " << cBox.confidence << std::endl;
+}
+
 // For streaming PCD files
 void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud)
 {
@@ -114,7 +124,14 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         renderPointCloud(viewer, cluster, "obstcleCloud" + std::to_string(clusterId), colors[clusterId % colors.size()]);
 
         Box box = pointProcessorI->BoundingBox(cluster);
-        //BoundingBox customizedBox = pointProcessorI->customizedBoundingBox(cluster);
+
+        // A little ugly solution
+        BoundingBox<pcl::PointXYZI> cBox = BoundingBox<pcl::PointXYZI>::computeBoundingBox(cluster);
+
+        /* Console based properties checker since renderBox() doesn't work for PointXYZI */
+        showBB(cBox);
+        //BoundingBox<pcl::PointXYZI> cBox = pointProcessorI->BoundingBox(cluster);
+
         renderBox(viewer, box, clusterId);
         ++clusterId;
     }

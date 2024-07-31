@@ -4,53 +4,48 @@
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
 #include <pcl/common/common.h>
+#include <string>
 #include <Eigen/Dense>
 
 template<typename PointT>
 class BoundingBox {
-private:
-    typename pcl::PointCloud<PointT>::Ptr cloud;
+public:
     Eigen::Vector3f center;
     Eigen::Vector3f dimensions;
     float yaw;
     int id;
     float confidence;
-
+    std::string name;
     static int next_id;
 
-    void computeProperties() 
+    //BoundingBox() {}
+
+    static BoundingBox computeProperties(typename pcl::PointCloud<PointT>::Ptr cloud)
     {
-        // pcl::compute3DCentroid(*cloud, center);
+        BoundingBox box;
         
-        // PointT min_pt, max_pt;
-        // pcl::getMinMax3D(*cloud, min_pt, max_pt);
-        // dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
+        Eigen::Vector4f centroid;
+        pcl::compute3DCentroid(*cloud, centroid);
+        box.center = centroid.head<3>();
+
+        PointT min_pt, max_pt;
+        pcl::getMinMax3D(*cloud, min_pt, max_pt);
+        box.dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
+        box.yaw = std::atan2(box.dimensions.y(), box.dimensions.x());
+        box.id = next_id++;
+        box.name = "Car";
+        box.confidence = 1.0f;
         
-        // yaw = std::atan2(dimensions.y(), dimensions.x());
-        
-        // id = next_id++;
-        
-        // confidence = 1.0f;
+        return box;
     }
 
-    typename pcl::PointCloud<PointT>::Ptr getCloud() const { return cloud; }
-    Eigen::Vector3f getCenter() const { return center; }
-    Eigen::Vector3f getDimensions() const { return dimensions; }
-    float getYaw() const { return yaw; }
-    int getId() const { return id; }
-    float getConfidence() const { return confidence; }
-
-public:
-    BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster) : cloud(cluster) {}
-
-    BoundingBox computeBoundingBox() {
-        computeProperties();
+    static BoundingBox computeBoundingBox(typename pcl::PointCloud<PointT>::Ptr cloud)
+    {
+        return computeProperties(cloud);
     }
-    // Public methods can be added here as needed
 };
 
 template<typename PointT>
 int BoundingBox<PointT>::next_id = 0;
 
 #endif // BOUNDING_BOX_H
-

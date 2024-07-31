@@ -44,6 +44,11 @@ public:
     std::vector<typename pcl::PointCloud<PointT>::Ptr> manhattanClustering(typename pcl::PointCloud<PointT>::Ptr cloud, float clusterTolerance, int minSize, int maxSize);
     
     Box BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster);
+    // BoundingBox<PointT> BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster)
+    // {
+    //     return BoundingBox<PointT>::computeBoundingBox(cluster);
+    // }
+
     //BoundingBox customizedBoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster);
 
     // void clusterHelper(const pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, 
