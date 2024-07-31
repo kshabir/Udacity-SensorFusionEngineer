@@ -18,18 +18,19 @@ private:
 
     static int next_id;
 
-    void computeProperties() {
-        pcl::compute3DCentroid(*cloud, center);
+    void computeProperties() 
+    {
+        // pcl::compute3DCentroid(*cloud, center);
         
-        PointT min_pt, max_pt;
-        pcl::getMinMax3D(*cloud, min_pt, max_pt);
-        dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
+        // PointT min_pt, max_pt;
+        // pcl::getMinMax3D(*cloud, min_pt, max_pt);
+        // dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
         
-        yaw = std::atan2(dimensions.y(), dimensions.x());
+        // yaw = std::atan2(dimensions.y(), dimensions.x());
         
-        id = next_id++;
+        // id = next_id++;
         
-        confidence = 1.0f;
+        // confidence = 1.0f;
     }
 
     typename pcl::PointCloud<PointT>::Ptr getCloud() const { return cloud; }
@@ -40,10 +41,11 @@ private:
     float getConfidence() const { return confidence; }
 
 public:
-    BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster) : cloud(cluster) {
+    BoundingBox(typename pcl::PointCloud<PointT>::Ptr cluster) : cloud(cluster) {}
+
+    BoundingBox computeBoundingBox() {
         computeProperties();
     }
-
     // Public methods can be added here as needed
 };
 
