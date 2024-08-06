@@ -21,8 +21,9 @@ struct ExtendedBox : public Box
     Eigen::Vector3f center;
     Eigen::Vector3f dimensions;
     float yaw;
+    float range;
     int id;
     float confidence;
-    std::string name;
+    std::string type;
 };
 #endif

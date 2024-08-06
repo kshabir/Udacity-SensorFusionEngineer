@@ -109,8 +109,8 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
     std::vector<Color> colors = {Color(1,0,0), Color(0,1,1), Color(1,1,0)};
     for(pcl::PointCloud<pcl::PointXYZI>::Ptr cluster : clusters)
     {
-        std::cout << "cluster size ";
-        std::cout << cluster->points.size() << std::endl;
+        // std::cout << "cluster size ";
+        // std::cout << cluster->points.size() << std::endl;
         renderPointCloud(viewer, cluster, "obstcleCloud" + std::to_string(clusterId), colors[clusterId % colors.size()]);
 
         Box box = pointProcessorI->BoundingBox(cluster);
@@ -120,6 +120,8 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
 
         /* Console based properties checker since renderBox() doesn't work for PointXYZI */
         ExtendedBox cBox = pointProcessorI->computeProperties(cluster);
+
+        std::cout << "yaw: " << cBox.yaw << std::endl;
 
         renderBox(viewer, cBox, clusterId);
         detections.push_back(cBox);
@@ -157,7 +159,7 @@ int main (int argc, char** argv)
     std::cout << "starting enviroment" << std::endl;
 
     pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
-    CameraAngle setAngle = FPS;
+    CameraAngle setAngle = TopDown;
     initCamera(setAngle, viewer);
     //simpleHighway(viewer);
 
@@ -183,8 +185,7 @@ int main (int argc, char** argv)
         if(streamIt == stream.end())
         {
             std::cout << "detections size: " << detections.size() << std::endl;
-            // streamIt = stream.begin();
-            break;
+            streamIt = stream.begin();
         }
 
         // some delay to see the result

@@ -308,11 +308,12 @@ ExtendedBox ProcessPointClouds<PointT>::computeProperties(typename pcl::PointClo
 
     box.dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
     box.yaw = std::atan2(box.dimensions.y(), box.dimensions.x());
+    box.range = std::sqrt(box.dimensions.x() * box.dimensions.x() + box.dimensions.y() * box.dimensions.y());
 
     static int next_id = 0;
     box.id = next_id++;
     box.confidence = 1.0f;
-    box.name = "Object";
+    box.type = "Car";
 
     return box;
 }

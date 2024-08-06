@@ -134,9 +134,31 @@ void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, const ExtendedBox
     viewer->setShapeRenderingProperties(pcl::visualization::PCL_VISUALIZER_OPACITY, opacity*0.3, cubeFill);
     
 	std::string label = "label" + std::to_string(box.id);
-	viewer->addText3D(box.name + "\nConf: " + std::to_string(box.confidence) + "\nYaw: " + std::to_string(box.yaw),
+	float x_distance = std::abs(box.center.x());
+	viewer->addText3D(box.type + "\nx_distance: " + std::to_string(x_distance) + "\nRange: " + std::to_string(box.range) + "\nYaw: " + std::to_string(box.yaw),
                   pcl::PointXYZ(box.center.x(), box.center.y(), box.center.z() + box.dimensions.z()/2),
                   0.11, 0.0, 1.0, 0.0, label);
+
+	// Drawing a yaw line
+	float lineLength = std::max(box.dimensions.x(), box.dimensions.y()) * 0.5;
+	Eigen::Vector3f lineStart(
+		box.center.x() - box.dimensions.x() * 0.5,  // Move to the front of the box
+		box.center.y(),
+		box.center.z()
+	);
+	Eigen::Vector3f lineEnd(
+		lineStart.x() + lineLength * cos(box.yaw + M_PI),
+		lineStart.y() + lineLength * sin(box.yaw + M_PI),
+		lineStart.z()
+	);
+
+	std::string lineName = "yaw_line_" + std::to_string(id);
+	viewer->addLine(
+		pcl::PointXYZ(lineStart.x(), lineStart.y(), lineStart.z()),
+		pcl::PointXYZ(lineEnd.x(), lineEnd.y(), lineEnd.z()),
+		0.0, 1.0, 1.0,  // Blue color
+		lineName
+	);
 
 }
 
