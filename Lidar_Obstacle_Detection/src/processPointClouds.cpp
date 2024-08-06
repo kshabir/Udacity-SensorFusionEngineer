@@ -307,8 +307,17 @@ ExtendedBox ProcessPointClouds<PointT>::computeProperties(typename pcl::PointClo
     box.z_max = max_pt.z;
 
     box.dimensions = max_pt.getVector3fMap() - min_pt.getVector3fMap();
-    box.yaw = std::atan2(box.dimensions.y(), box.dimensions.x());
-    box.range = std::sqrt(box.dimensions.x() * box.dimensions.x() + box.dimensions.y() * box.dimensions.y());
+    //box.yaw = std::atan2(box.dimensions.y(), box.dimensions.x());
+
+    // Calculate yaw based on the longest dimension
+    if (box.dimensions.x() > box.dimensions.y()) 
+    {
+        box.yaw = std::atan2(max_pt.y - min_pt.y, max_pt.x - min_pt.x);
+    } 
+    else 
+    {
+        box.yaw = std::atan2(max_pt.x - min_pt.x, max_pt.y - min_pt.y);
+    }
 
     static int next_id = 0;
     box.id = next_id++;

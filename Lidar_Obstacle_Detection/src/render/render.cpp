@@ -135,7 +135,8 @@ void renderBox(pcl::visualization::PCLVisualizer::Ptr& viewer, const ExtendedBox
     
 	std::string label = "label" + std::to_string(box.id);
 	float x_distance = std::abs(box.center.x());
-	viewer->addText3D(box.type + "\nx_distance: " + std::to_string(x_distance) + "\nRange: " + std::to_string(box.range) + "\nYaw: " + std::to_string(box.yaw),
+	float range = std::sqrt(box.dimensions.x() * box.dimensions.x() + box.dimensions.y() * box.dimensions.y());
+	viewer->addText3D(box.type + "\nx_distance: " + std::to_string(x_distance) + "\nRange: " + std::to_string(range) + "\nYaw: " + std::to_string(box.yaw),
                   pcl::PointXYZ(box.center.x(), box.center.y(), box.center.z() + box.dimensions.z()/2),
                   0.11, 0.0, 1.0, 0.0, label);
 
