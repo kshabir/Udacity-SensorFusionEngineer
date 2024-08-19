@@ -2,6 +2,7 @@
 // Quiz on implementing simple RANSAC line fitting
 
 #include "../../render/render.h"
+#include <pcl/octree/octree_search.h>
 #include "../../render/box.h"
 #include <chrono>
 #include <string>
@@ -75,14 +76,79 @@ void render2DTree(Node* node, pcl::visualization::PCLVisualizer::Ptr& viewer, Bo
 
 }
 
+
+std::vector<std::vector<int>> euclideanCluster_ocTree(const std::vector<std::vector<float>>& points, float distanceTol)
+{
+    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
+    for (const auto& point : points)
+        cloud->push_back(pcl::PointXYZ(point[0], point[1], point[2]));
+
+    pcl::octree::OctreePointCloudSearch<pcl::PointXYZ> octree(distanceTol);
+    octree.setInputCloud(cloud);
+    octree.addPointsFromInputCloud();
+
+    std::vector<std::vector<int>> clusters;
+    std::vector<bool> processed(points.size(), false);
+
+    for (int i = 0; i < points.size(); i++)
+    {
+        if (processed[i]) continue;
+
+        std::vector<int> cluster;
+        std::vector<int> neighbors;
+        octree.radiusSearch(cloud->points[i], distanceTol, neighbors);
+
+        cluster.push_back(i);
+        processed[i] = true;
+
+        for (int j = 0; j < neighbors.size(); j++)
+        {
+            if (!processed[neighbors[j]])
+            {
+                cluster.push_back(neighbors[j]);
+                processed[neighbors[j]] = true;
+            }
+        }
+
+        clusters.push_back(cluster);
+    }
+
+    return clusters;
+}
+
+
+void clusterHelper(std::vector<int>& cluster, std::vector<bool>>& processedPoints, int index, std::vector<std::vector<float>>& points, KdTree* tree, float distanceTol)
+{
+	processedPoints[index] = true;
+	cluster.push_back(index);
+
+	std::vector<int> neighbors = tree->search(point, distanceTol);
+
+	for(int id : neighbors)
+	{
+		if(!processedPoints[id])
+		{
+			clusterHelper(cluster, processedPoints, id, points, tree, distanceTol);
+		}
+	}
+}
+
 std::vector<std::vector<int>> euclideanCluster(const std::vector<std::vector<float>>& points, KdTree* tree, float distanceTol)
 {
 
 	// TODO: Fill out this function to return list of indices for each cluster
 
 	std::vector<std::vector<int>> clusters;
- 
-	return clusters;
+	std::vector<bool>> processedPoints(points.size(), false); // a map to track point is processed or not
+
+	for(int i = 0; i < points.size(); i++)
+	{
+		if(processedPoints[i]) continue;
+
+		std::vector<int> cluster;
+		clusterHelper(cluster, processedPoints, i, points, tree, distanceTol);
+		clusters.push_back(cluster);
+	}
 
 }
 
@@ -121,7 +187,9 @@ int main ()
   	// Time segmentation process
   	auto startTime = std::chrono::steady_clock::now();
   	//
-  	std::vector<std::vector<int>> clusters = euclideanCluster(points, tree, 3.0);
+  	//std::vector<std::vector<int>> clusters = euclideanCluster(points, tree, 3.0);
+	// OCTree based clustering
+	std::vector<std::vector<int>> clusters = euclideanCluster_ocTree(points, distanceTol);
   	//
   	auto endTime = std::chrono::steady_clock::now();
   	auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime);
@@ -140,6 +208,14 @@ int main ()
   	}
   	if(clusters.size()==0)
   		renderPointCloud(viewer,cloud,"data");
+	
+  	while (!viewer->wasStopped ())
+  	{
+  	  viewer->spinOnce ();
+  	}
+  	
+}
+
 	
   	while (!viewer->wasStopped ())
   	{
