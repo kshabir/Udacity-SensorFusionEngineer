@@ -1,4 +1,5 @@
-# Sensor Fusion Self-Driving Car Course
+# Project Summary:
+This project involves creating a templated class for handling point cloud data using the PCL library. The class includes methods for filtering, segmenting, clustering, and manipulating point clouds. Key functionalities include RANSAC plane segmentation, custom (kd-tree inspired) clustering algorithms, and various point cloud processing operations. The code demonstrates a comprehensive approach to working with 3D point cloud data in C++.
 
 <img src="media/ObstacleDetectionFPS.gif" width="700" height="400" />
 
