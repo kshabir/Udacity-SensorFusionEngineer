@@ -1,5 +1,7 @@
 # Project Summary:
-This project involves creating a templated class for handling point cloud data using the PCL library. The class includes methods for filtering, segmenting, clustering, and manipulating point clouds. Key functionalities include RANSAC plane segmentation, custom (kd-tree inspired) clustering algorithms, and various point cloud processing operations. The code demonstrates a comprehensive approach to working with 3D point cloud data in C++.
+This project involves creating bounding boxes on each object after processing live point cloud data using the PCL library. It consists of four main steps, downsampling, segmentation, clustering and processing each cluster to place BB. A Voxel grid ROI based method was used to downsample pcl cloud. Then RANSAC based Segmentation by fitting a plane to separate obstacle and road clouds. The obstacle cloud was then feeded into the Clustering algorithm which uses Euclidean based distance metric to find the total number of clusters in the obstacle cloud. Finally, a 3D BB is placed on each cluster and rendered using pcl own visualizer.
+
+All the code is written in C++.
 
 <img src="media/ObstacleDetectionFPS.gif" width="700" height="400" />
 
