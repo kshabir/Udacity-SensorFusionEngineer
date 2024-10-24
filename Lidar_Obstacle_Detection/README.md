@@ -1,7 +1,7 @@
 # Project Summary:
-This project involves creating bounding boxes on each object after processing live point cloud data using the PCL library. It consists of four main steps, downsampling, segmentation, clustering and processing each cluster to place BB. A Voxel grid ROI based method was used to downsample pcl cloud. Then RANSAC based Segmentation by fitting a plane to separate obstacle and road clouds. The obstacle cloud was then feeded into the Clustering algorithm which uses Euclidean based distance metric to find the total number of clusters in the obstacle cloud. Finally, a 3D BB is placed on each cluster and rendered using pcl own visualizer.
+This project focuses on generating bounding boxes for objects by processing live point cloud data using the PCL library. The workflow consists of four key steps: downsampling, segmentation, clustering, and bounding box generation. Initially, a Voxel Grid filter is applied to downsample the point cloud within a Region of Interest (ROI). Following this, RANSAC-based plane segmentation is employed to differentiate between road and obstacle points. The obstacle point cloud is then passed to a clustering algorithm that uses a Euclidean distance metric to identify and group individual clusters. Finally, a 3D bounding box is generated for each cluster and visualized using PCL's built-in visualizer.
 
-All the code is written in C++.
+All code is written in C++.
 
 <img src="media/ObstacleDetectionFPS.gif" width="700" height="400" />
 
